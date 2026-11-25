@@ -1,0 +1,42 @@
+# Prisma
+/generated/prisma
+**/generated/prisma/
+
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+coverage/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# AI coding tools generated skill copies
+**/.agents/
+**/.claude/
+**/.windsurf/
+
+# TypeScript build cache
+*.tsbuildinfo
